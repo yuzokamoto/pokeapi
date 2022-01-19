@@ -1,0 +1,20 @@
+{
+  "name": "pokeapi",
+  "scripts": {
+    "start": "node build/src/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "knex": "^1.0.1",
+    "mysql": "^2.18.1"
+  }
+}
